@@ -47,7 +47,7 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>Python-Projects/README.md at master · K-G-PRAJWAL/Python-Projects</title>
+  <title>Python-Projects/main.py at master · K-G-PRAJWAL/Python-Projects</title>
     <meta name="description" content="Amazing Python Projects. Contribute to K-G-PRAJWAL/Python-Projects development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
@@ -61,11 +61,11 @@
     
 
   <link rel="assets" href="https://github.githubassets.com/">
-    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/77053943/ws?session=eyJ2IjoiVjMiLCJ1Ijo3NzA1Mzk0MywicyI6NjMwNjMyMDM1LCJjIjozODI3OTg2MDMzLCJ0IjoxNjA5OTU0MzQxfQ==--01f06dd26cb741af35a7b80d9add79c7691941fc5c300f35d12839da36f3a942" data-refresh-url="/_alive">
+    <link rel="shared-web-socket" href="wss://alive.github.com/_sockets/u/77053943/ws?session=eyJ2IjoiVjMiLCJ1Ijo3NzA1Mzk0MywicyI6NjMwNjMyMDM1LCJjIjozNjYzNTEyMDE1LCJ0IjoxNjA5OTU0MzUxfQ==--a939ac09d71df7f194ee70d1ad9bc1d6aa35d8fd2fd0b712b8c00c0abbe7fa8e" data-refresh-url="/_alive">
     <link rel="shared-web-socket-src" href="/socket-worker-5029ae85.js">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
 
-  <meta name="request-id" content="C1D3:7E33:5CB3BA0:907566D:5FF5F424" data-pjax-transient="true" /><meta name="html-safe-nonce" content="02bac496fbdc6b71ff279e6cee6a504783c07b638dc5a2991a2b8eea1812b796" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9LLUctUFJBSldBTC9QeXRob24tUHJvamVjdHMvdHJlZS9tYXN0ZXIvQ29yb25hdmlydXMlMjBWb2ljZSUyMEFzc2lzdGFudCIsInJlcXVlc3RfaWQiOiJDMUQzOjdFMzM6NUNCM0JBMDo5MDc1NjZEOjVGRjVGNDI0IiwidmlzaXRvcl9pZCI6IjEzMDI2NTgxMzY0NTQ0MjUzOTYiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="7b80ae805ad44753599b2bdbdd8a6ce3b1416c0d92bc5d3194edf7efb77b7b13" data-pjax-transient="true" />
+  <meta name="request-id" content="C1D3:7E33:5CB3EEC:90756A6:5FF5F425" data-pjax-transient="true" /><meta name="html-safe-nonce" content="02bac496fbdc6b71ff279e6cee6a504783c07b638dc5a2991a2b8eea1812b796" data-pjax-transient="true" /><meta name="visitor-payload" content="eyJyZWZlcnJlciI6Imh0dHBzOi8vZ2l0aHViLmNvbS9LLUctUFJBSldBTC9QeXRob24tUHJvamVjdHMvdHJlZS9tYXN0ZXIvQ29yb25hdmlydXMlMjBWb2ljZSUyMEFzc2lzdGFudCIsInJlcXVlc3RfaWQiOiJDMUQzOjdFMzM6NUNCM0VFQzo5MDc1NkE2OjVGRjVGNDI1IiwidmlzaXRvcl9pZCI6IjEzMDI2NTgxMzY0NTQ0MjUzOTYiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true" /><meta name="visitor-hmac" content="4152fc71c55b7de687499730ec46674024cc19449c7d346ef1cc15b6b1937539" data-pjax-transient="true" />
 
     <meta name="hovercard-subject-tag" content="repository:256949721" data-pjax-transient>
 
@@ -104,7 +104,7 @@
 
       <meta name="expected-hostname" content="github.com">
 
-      <meta name="js-proxy-site-detection-payload" content="ZmQzNWMyNmE5Y2U4MmE2NTRmYTA3MGI0OTU5ZDcyMjNhYTg5ZThjZTM0NDQ3ZDRhMTNhNWQxOWMyMzFmNGI2Znx7InJlbW90ZV9hZGRyZXNzIjoiMTU3LjQxLjEwOC42IiwicmVxdWVzdF9pZCI6IkMxRDM6N0UzMzo1Q0IzQkEwOjkwNzU2NkQ6NUZGNUY0MjQiLCJ0aW1lc3RhbXAiOjE2MDk5NTQzNDEsImhvc3QiOiJnaXRodWIuY29tIn0=">
+      <meta name="js-proxy-site-detection-payload" content="NTVlY2I1Njc0YjhkY2FkZDYzYzA3NzkzOWUyYzY3ZDQyYmZkNmI0MDA4NzM5N2NjMzgwMTc0NDBjOTY2MjU4Nnx7InJlbW90ZV9hZGRyZXNzIjoiMTU3LjQxLjEwOC42IiwicmVxdWVzdF9pZCI6IkMxRDM6N0UzMzo1Q0IzRUVDOjkwNzU2QTY6NUZGNUY0MjUiLCJ0aW1lc3RhbXAiOjE2MDk5NTQzNTEsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,JS_HTTP_CACHE_HEADERS,ACTIONS_ENVIRONMENTS,ACTIONS_ENVIRONMENTS,TASK_LIST_AUTOCOMPLETE,MULTI_WORD_SUGGESTER">
 
@@ -119,7 +119,7 @@
 
 
 
-    <link rel="canonical" href="https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -193,7 +193,7 @@
           spellcheck="false"
           autocomplete="off"
           >
-          <input type="hidden" value="2ySQQk5cBc9wNFI6pxZls8uiASI3ExY/sRA25PfZKKWhKPvIuYYHsvwxNJWw08BTs2tC/DwK54cyGNNQIST3Hw==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
+          <input type="hidden" value="Rq/ZJO8uQLk5TK1n4xqqkaGVSWpLRcXUOXsIEvqh9NY8o7KuGPRCxLVJy8j03w9x2VwKtEBcNGy6c+2mLFwrbA==" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" />
           <input type="hidden" class="js-site-search-type-field" name="type" >
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
@@ -383,7 +383,7 @@
       <img class="avatar avatar-user" src="https://avatars0.githubusercontent.com/u/77053943?s=40&amp;v=4" width="20" height="20" alt="@dibyanipatra" />
       dibyanipatra
 </a>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="5M/SryhMzlYhIFXoOUeo6LiXRvHX7DcM/fgbVkTiKg+Z3r+dQ2u/8Jh8AAX0wcN31maxSl099Gs7sM3SnpOEIQ==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="Y4Ou5XS3MCEJf2QuKiRveyNCYlGuBdvrtOUe0tbgZ2MeksPXH5BBh7AjMcPnogTkTbOV6iTUGIxyrchWDJHJTQ==" />
       <button type="submit" class="Header-link mr-0 mr-md-3 py-2 py-md-3 border-top border-md-top-0 border-white-fade-15 d-md-none btn-link d-block width-full text-left" data-ga-click="Header, sign out, icon:logout" style="padding-left: 2px;">
         <svg class="octicon octicon-sign-out v-align-middle" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.75C2 1.784 2.784 1 3.75 1h2.5a.75.75 0 010 1.5h-2.5a.25.25 0 00-.25.25v10.5c0 .138.112.25.25.25h2.5a.75.75 0 010 1.5h-2.5A1.75 1.75 0 012 13.25V2.75zm10.44 4.5H6.75a.75.75 0 000 1.5h5.69l-1.97 1.97a.75.75 0 101.06 1.06l3.25-3.25a.75.75 0 000-1.06l-3.25-3.25a.75.75 0 10-1.06 1.06l1.97 1.97z"></path></svg>
         Sign out
@@ -403,7 +403,7 @@
     <div class="Header-item mr-0 mr-md-3 flex-order-1 flex-md-order-none">
         
 
-    <notification-indicator class="js-socket-channel" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NzcwNTM5NDMiLCJ0IjoxNjA5OTU0MzQxfQ==--cd797d4959bc85c81e16d569b9966092fc0002ced935f0351c5a5244c438d860">
+    <notification-indicator class="js-socket-channel" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6NzcwNTM5NDMiLCJ0IjoxNjA5OTU0MzUxfQ==--558c87167526b3db3fe9427ce5cd0e91396dd0c67a1828b4cea3eeab2b335c99">
       <a href="/notifications"
          class="Header-link notification-indicator position-relative tooltipped tooltipped-sw"
          
@@ -582,7 +582,7 @@
         data-action="toggle:notifications-list-subscription-form#detailsToggled"
       >
 
-      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/README.md&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="3eb097b66e57aef2593abc2b255dcfe915267ad391ad574af0c471c562302a54" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
+      <summary class="btn btn-sm rounded-right-0" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;WATCH_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="cead21bcdbbf837037d1f0b2b436c3225e1beb20c7ef64d5014a789d731191ff" data-ga-click="Repository, click Watch settings, action:blob#show" aria-label="Notifications settings">
           <span data-menu-button>
             <span
               hidden
@@ -626,7 +626,7 @@
             </header>
 
             <div class="SelectMenu-list">
-              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="LiU8FdTuAa2Umn2HUL96LzXW6Z649wDKwRioLI41QeIBC6JVZW68P2xhPAxvvlmc6L4hCszU0wetNs9zttNBqg==" />
+              <form data-target="notifications-list-subscription-form.form" data-action="submit:notifications-list-subscription-form#submitForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="YuMBjaMNMwdAAlDp66L3jp1UsuyfiLX9jCjiKwy1wbJNzZ/NEo2Olbj5EWLUo9Q9QDx6eOurZjDgBoV0NFPB+g==" />
 
                 <input type="hidden" name="repository_id" value="256949721">
 
@@ -728,7 +728,7 @@
 
         <details-dialog class="notifications-component-dialog " data-target="notifications-list-subscription-form.customDialog" hidden>
           <div class="SelectMenu-modal notifications-component-dialog-modal overflow-visible">
-            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="IZgeX2egV/vm0qljC/MVMqFXrVe3N+GYW9+liwx9mUkOtoAf1iDqaR4p6Og08jaBfD9lw8MUMlU38cLUNJuZAQ==" />
+            <form data-target="notifications-list-subscription-form.customform" data-action="submit:notifications-list-subscription-form#submitCustomForm" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="XfBHv9SxDGGm+rxaHJF8x4kGuB7dYkAfZACO2O0TcSVy3tn/ZTGx814B/dEjkF90VG5wiqlBk9IILumH1fVxbQ==" />
 
               <input type="hidden" name="repository_id" value="256949721">
 
@@ -865,9 +865,9 @@
 
   <li>
         <div class="d-block js-toggler-container js-social-container starring-container ">
-    <form class="starred js-social-form" action="/K-G-PRAJWAL/Python-Projects/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="ATJQHUwaFzE/oHe7hGQGTpE3De4f7lq2pUv0fvOh/jy4WMmySK0VCWcwyb0/ZPkIei79+ZS+hVQPMGa4SkMlIA==" />
+    <form class="starred js-social-form" action="/K-G-PRAJWAL/Python-Projects/unstar" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="20IUXz8uyxeaMIHSd78G8ePHUqJlD/fm1ONiF3aGkQFiKI3wO5nJL8KgP9TMv/m3CN6ite5fKAR+mPDRz2RKHQ==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar K-G-PRAJWAL/Python-Projects" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/README.md&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="183e902f4b15a1b78dfd6ba1f6b1d8ce74cff05aa6fdacff9a6cf861ce0e19a4" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Unstar K-G-PRAJWAL/Python-Projects" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;UNSTAR_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="791ae315fca710c6717b43aaa537719eca37ac0685cd326f976936019cf0fb11" data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">        <svg class="octicon octicon-star-fill mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"></path></svg>
         <span>
           Unstar
 </span></button>        <a class="social-count js-social-count" href="/K-G-PRAJWAL/Python-Projects/stargazers"
@@ -875,9 +875,9 @@
            17
         </a>
 </form>
-    <form class="unstarred js-social-form" action="/K-G-PRAJWAL/Python-Projects/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="1B82B7WCPtJi9MjA0nzNkv/1uoKG8rnhOZmytGMeoxAri/VGxVFChCNauzwHW5UvlH88+jnIEFXmUf5mYSSL0g==" />
+    <form class="unstarred js-social-form" action="/K-G-PRAJWAL/Python-Projects/star" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="AiR6tAPDfdRgKYtHgcWgjSEdGUImCFbIthvXAzj4Jpn9sLn1cxABgiGH+LtU4vgwSpefOpky/3xp05vROsIOWw==" />
       <input type="hidden" name="context" value="repository">
-      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star K-G-PRAJWAL/Python-Projects" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/README.md&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="0f114b22e1cd39a34c64c4c570c72dea284daa75916da34780750b382243db6f" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      <button type="submit" class="btn btn-sm btn-with-count  js-toggler-target" aria-label="Unstar this repository" title="Star K-G-PRAJWAL/Python-Projects" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;STAR_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="1b7a30102b3d8873fe8d307ed7fb870a30f53535b64b7f650c82432b402e5188" data-ga-click="Repository, click star button, action:blob#show; text:Star">        <svg class="octicon octicon-star mr-1" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
         <span>
           Star
 </span></button>        <a class="social-count js-social-count" href="/K-G-PRAJWAL/Python-Projects/stargazers"
@@ -889,8 +889,8 @@
   </li>
 
   <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/K-G-PRAJWAL/Python-Projects/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="m8foZFzsUG/MQIYq2pRUrPjFJOoLTdbIN8GZ7/Z0ZOZi19hdhRdDlUSR2Zqw0DO6GgXC9RikLtQL4NX6z3+CXQ==" />
-              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/README.md&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="b92598212c8d018ca7708ab6e2ba7d8cc84888cdd7315ddd0f427647c91728ca" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of K-G-PRAJWAL/Python-Projects to your account" aria-label="Fork your own copy of K-G-PRAJWAL/Python-Projects to your account">                <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/K-G-PRAJWAL/Python-Projects/fork" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="R3y6nkWGECrrGJZjGRNvsZdxUF8yyVl03NLT72Zq+I6+bIqnnH0D0GPJydNzVwindbG2QCEgoWjg85/6X2EeNQ==" />
+              <button class="btn btn-sm btn-with-count" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FORK_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5d8c3c8449b25cb0dee7f13c5fffe926dd95bcd58c2ed52150e972179548cab7" data-ga-click="Repository, show fork modal, action:blob#show; text:Fork" type="submit" title="Fork your own copy of K-G-PRAJWAL/Python-Projects to your account" aria-label="Fork your own copy of K-G-PRAJWAL/Python-Projects to your account">                <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
                 Fork
 </button></form>
       <a href="/K-G-PRAJWAL/Python-Projects/network/members" class="social-count"
@@ -1029,9 +1029,9 @@
   
 
 
-    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/K-G-PRAJWAL/Python-Projects/blob/407e112488ec7b9d121fae52d1828d29b0c6b94a/Coronavirus%20Voice%20Assistant/README.md">Permalink</a>
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/K-G-PRAJWAL/Python-Projects/blob/407e112488ec7b9d121fae52d1828d29b0c6b94a/Coronavirus%20Voice%20Assistant/main.py">Permalink</a>
 
-    <!-- blob contrib key: blob_contributors:v22:99f14d38e119db22b150c7f8dada770f39ef5317608e12da4ad3a30f7e42d31b -->
+    <!-- blob contrib key: blob_contributors:v22:710eee367d9103cd892304d64fb8b9b12035db880d58e3a8d00628376c12cc2c -->
 
     <div class="d-flex flex-items-start flex-shrink-0 pb-3 flex-wrap flex-md-nowrap flex-justify-between flex-md-justify-start">
       
@@ -1045,7 +1045,7 @@
       <span class="dropdown-caret"></span>
     </summary>
 
-    <details-menu class="SelectMenu SelectMenu--hasFilter" src="/K-G-PRAJWAL/Python-Projects/refs/master/Coronavirus%20Voice%20Assistant/README.md?source_action=show&amp;source_controller=blob" preload>
+    <details-menu class="SelectMenu SelectMenu--hasFilter" src="/K-G-PRAJWAL/Python-Projects/refs/master/Coronavirus%20Voice%20Assistant/main.py?source_action=show&amp;source_controller=blob" preload>
       <div class="SelectMenu-modal">
         <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
           <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 24 24" version="1.1" width="32" aria-hidden="true"><path d="M7.75 11c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5C9 11.56 8.44 11 7.75 11zm1.27 4.5a.469.469 0 01.48-.5h5a.47.47 0 01.48.5c-.116 1.316-.759 2.5-2.98 2.5s-2.864-1.184-2.98-2.5zm7.23-4.5c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5c0-.69-.56-1.25-1.25-1.25z"></path><path fill-rule="evenodd" d="M21.255 3.82a1.725 1.725 0 00-2.141-1.195c-.557.16-1.406.44-2.264.866-.78.386-1.647.93-2.293 1.677A18.442 18.442 0 0012 5c-.93 0-1.784.059-2.569.17-.645-.74-1.505-1.28-2.28-1.664a13.876 13.876 0 00-2.265-.866 1.725 1.725 0 00-2.141 1.196 23.645 23.645 0 00-.69 3.292c-.125.97-.191 2.07-.066 3.112C1.254 11.882 1 13.734 1 15.527 1 19.915 3.13 23 12 23c8.87 0 11-3.053 11-7.473 0-1.794-.255-3.647-.99-5.29.127-1.046.06-2.15-.066-3.125a23.652 23.652 0 00-.689-3.292zM20.5 14c.5 3.5-1.5 6.5-8.5 6.5s-9-3-8.5-6.5c.583-4 3-6 8.5-6s7.928 2 8.5 6z"></path></svg>
@@ -1057,7 +1057,94 @@
 </div>
 
       <h2 id="blob-path" class="breadcrumb flex-auto min-width-0 text-normal mx-0 mx-md-3 width-full width-md-auto flex-order-1 flex-md-order-none mt-3 mt-md-0">
-        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/K-G-PRAJWAL/Python-Projects"><span>Python-Projects</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/K-G-PRAJWAL/Python-Projects/tree/master/Coronavirus%20Voice%20Assistant"><span>Coronavirus Voice Assistant</span></a></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+        <span class="js-repo-root text-bold"><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/K-G-PRAJWAL/Python-Projects"><span>Python-Projects</span></a></span></span><span class="separator">/</span><span class="js-path-segment d-inline-block wb-break-all"><a data-pjax="true" href="/K-G-PRAJWAL/Python-Projects/tree/master/Coronavirus%20Voice%20Assistant"><span>Coronavirus Voice Assistant</span></a></span><span class="separator">/</span><strong class="final-path">main.py</strong>
+          <span class="separator">/</span><details class="details-reset details-overlay d-inline" id="jumpto-symbol-select-menu">
+  <summary class="btn-link link-gray css-truncate" aria-haspopup="true" data-hotkey="r" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_blob_definitions&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_blob_definitions&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="8c7cf814d8c94aa143bdefc96778a70f23858b9db8ec8715e0bb4029447861b3">
+      <svg class="octicon octicon-code" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+    <span data-menu-button>Jump to</span>
+    <span class="dropdown-caret"></span>
+  </summary>
+  <details-menu class="SelectMenu SelectMenu--hasFilter" role="menu">
+    <div class="SelectMenu-modal">
+      <header class="SelectMenu-header">
+        <span class="SelectMenu-title">Code definitions</span>
+        <button class="SelectMenu-closeButton" type="button" data-toggle-for="jumpto-symbol-select-menu">
+          <svg aria-label="Close menu" class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" role="img"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </header>
+        <div class="SelectMenu-filter">
+          <input
+            class="SelectMenu-input form-control js-filterable-field"
+            id="jumpto-symbols-filter-field"
+            type="text"
+            autocomplete="off"
+            spellcheck="false"
+            autofocus
+            placeholder="Filter definitions"
+            aria-label="Filter definitions">
+        </div>
+      <div class="SelectMenu-list">
+        <div data-filterable-for="jumpto-symbols-filter-field" data-filterable-type="substring">
+            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L15">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>Data</span>
+              <span class="flex-auto d-flex flex-justify-end">Class</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L16">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>__init__</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L24">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>get_data</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L30">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>get_total_cases</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L36">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>get_total_deaths</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L44">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>get_country_data</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L51">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>get_list_of_countries</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L57">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>update</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L61">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>poll</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L79">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>speak</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L85">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>get_audio</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>            <a class="SelectMenu-item d-flex flex-justify-between css-truncate" role="menuitemradio" aria-checked="false" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.navigate_to_blob_definition&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;navigate_to_blob_definition&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="5fbfd8dde866190734b1b580e553c8a6594343e53bb8fd735ba963c4eb1c1c5c" href="/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py#L99">
+              <svg class="octicon octicon-check SelectMenu-icon SelectMenu-icon--check" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z"></path></svg>
+              <span class="flex-auto css-truncate-target" data-menu-button-text>main</span>
+              <span class="flex-auto d-flex flex-justify-end">Function</span>
+</a>        </div>
+      </div>
+      <footer class="SelectMenu-footer">
+        <div class="d-flex flex-justify-between">
+          Code navigation index up-to-date
+          <svg class="octicon octicon-dot-fill text-green" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        </div>
+      </footer>
+    </div>
+  </details-menu>
+</details>
+
       </h2>
       <a href="/K-G-PRAJWAL/Python-Projects/find/master"
             class="js-pjax-capture-input btn mr-2 d-none d-md-block"
@@ -1072,7 +1159,7 @@
 </summary>  <div>
     <ul class="dropdown-menu dropdown-menu-sw">
             <li class="d-block d-md-none">
-              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/README.md&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="c32cff17c16ac4b6cfc796ce2fcd7ef673b1395c05149593c8df2e8871685b52" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/K-G-PRAJWAL/Python-Projects/find/master">
+              <a class="dropdown-item d-flex flex-items-baseline" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:256949721,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}" data-hydro-click-hmac="9501f9896a9bf1c2d98ef8a9dbabfbd50d41da34bc0bc6cb91ea245cacf97961" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/K-G-PRAJWAL/Python-Projects/find/master">
                 <span class="flex-auto">Go to file</span>
                 <span class="text-small text-gray" aria-hidden="true">T</span>
 </a>            </li>
@@ -1084,9 +1171,17 @@
                 </span>
               </button>
             </li>
+            <li data-toggle-for="blob-more-options-details">
+              <button type="button" data-toggle-for="jumpto-symbol-select-menu" class="btn-link dropdown-item">
+                <span class="d-flex flex-items-baseline">
+                  <span class="flex-auto">Go to definition</span>
+                  <span class="text-small text-gray" aria-hidden="true">R</span>
+                </span>
+              </button>
+            </li>
             <li class="dropdown-divider" role="none"></li>
             <li>
-              <clipboard-copy value="Coronavirus Voice Assistant/README.md" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
+              <clipboard-copy value="Coronavirus Voice Assistant/main.py" class="dropdown-item cursor-pointer" data-toggle-for="blob-more-options-details">
                 Copy path
               </clipboard-copy>
             </li>
@@ -1096,76 +1191,17 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      
-  <div class="Box-header Box-header--blue Details js-details-container">
-      <div class="d-flex flex-items-center">
-        <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
-          <a rel="author" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/K-G-PRAJWAL/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/K-G-PRAJWAL"><img class="avatar avatar-user" src="https://avatars1.githubusercontent.com/u/52231186?s=48&amp;v=4" width="24" height="24" alt="@K-G-PRAJWAL" /></a>
-        </span>
-        <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
-          <div class="css-truncate css-truncate-overflow">
-            <a class="text-bold link-gray-dark" rel="author" data-hovercard-type="user" data-hovercard-url="/users/K-G-PRAJWAL/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/K-G-PRAJWAL">K-G-PRAJWAL</a>
-
-              <span>
-                <a data-pjax="true" title="Update README" class="link-gray" href="/K-G-PRAJWAL/Python-Projects/commit/5d23dffec64b13eb3c9e14e69e28f1f4e068b0ab">Update README</a>
-              </span>
-          </div>
-
-
-          <span class="ml-2">
-            <include-fragment accept="text/fragment+html" src="/K-G-PRAJWAL/Python-Projects/commit/5d23dffec64b13eb3c9e14e69e28f1f4e068b0ab/rollup?direction=e" class="d-inline"></include-fragment>
-          </span>
+      <include-fragment src="/K-G-PRAJWAL/Python-Projects/contributors/master/Coronavirus%20Voice%20Assistant/main.py" class="commit-loader">
+        <div class="Box-header Box-header--blue d-flex flex-items-center">
+          <div class="Skeleton avatar avatar-user flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1" style="width:24px;height:24px;"></div>
+          <div class="Skeleton Skeleton--text col-5 ml-2">&nbsp;</div>
         </div>
-        <div class="ml-3 d-flex flex-shrink-0 flex-items-center flex-justify-end text-gray no-wrap">
-          <span class="d-none d-md-inline">
-            <span>Latest commit</span>
-            <a class="text-small text-mono link-gray" href="/K-G-PRAJWAL/Python-Projects/commit/5d23dffec64b13eb3c9e14e69e28f1f4e068b0ab" data-pjax>5d23dff</a>
-            <span itemprop="dateModified"><relative-time datetime="2020-05-11T07:00:29Z" class="no-wrap">May 11, 2020</relative-time></span>
-          </span>
 
-          <a data-pjax href="/K-G-PRAJWAL/Python-Projects/commits/master/Coronavirus%20Voice%20Assistant/README.md" class="ml-3 no-wrap link-gray-dark no-underline">
-            <svg class="octicon octicon-history text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path></svg>
-            <span class="d-none d-sm-inline">
-              <strong>History</strong>
-            </span>
-          </a>
+        <div class="Box-body d-flex flex-items-center" >
+          <div class="Skeleton Skeleton--text col-1">&nbsp;</div>
+          <span class="text-red h6 loader-error">Cannot retrieve contributors at this time</span>
         </div>
-      </div>
-
-  </div>
-
-  <div class="Box-body d-flex flex-items-center flex-auto border-bottom-0 flex-wrap" >
-    <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark float-left mr-3" id="blob_contributors_box">
-      <summary class="link-gray-dark">
-        <svg class="octicon octicon-people text-gray" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>
-        <strong>1</strong>
-        
-        contributor
-      </summary>
-      <details-dialog
-        class="Box Box--overlay d-flex flex-column anim-fade-in fast"
-        aria-label="Users who have contributed to this file"
-        src="/K-G-PRAJWAL/Python-Projects/contributors-list/master/Coronavirus%20Voice%20Assistant/README.md" preload>
-        <div class="Box-header">
-          <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
-            <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
-          </button>
-          <h3 class="Box-title">
-            Users who have contributed to this file
-          </h3>
-        </div>
-        <include-fragment>
-          <svg viewBox="0 0 16 16" fill="none" style="box-sizing: content-box; color: var(--color-icon-primary);" class="my-3 mx-auto d-block" width="32" height="32">
-  <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke" />
-  <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke">
-    <animateTransform attributeName="transform" type="rotate" from="0 8 8" to="360 8 8" dur="1s" repeatCount="indefinite" />
-  </path>
-</svg>
-        </include-fragment>
-      </details-dialog>
-    </details>
-  </div>
-    </div>
+</include-fragment>    </div>
 
 
 
@@ -1178,16 +1214,16 @@
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
-      33 lines (21 sloc)
+      153 lines (122 sloc)
       <span class="file-info-divider"></span>
-    1.26 KB
+    4.56 KB
   </div>
 
   <div class="d-flex py-1 py-md-0 flex-auto flex-order-1 flex-md-order-2 flex-sm-grow-0 flex-justify-between">
 
     <div class="BtnGroup">
-      <a href="/K-G-PRAJWAL/Python-Projects/raw/master/Coronavirus%20Voice%20Assistant/README.md" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
-        <a href="/K-G-PRAJWAL/Python-Projects/blame/master/Coronavirus%20Voice%20Assistant/README.md" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
+      <a href="/K-G-PRAJWAL/Python-Projects/raw/master/Coronavirus%20Voice%20Assistant/main.py" id="raw-url" role="button" class="btn btn-sm BtnGroup-item ">Raw</a>
+        <a href="/K-G-PRAJWAL/Python-Projects/blame/master/Coronavirus%20Voice%20Assistant/main.py" data-hotkey="b" role="button" class="btn js-update-url-with-hash btn-sm BtnGroup-item ">Blame</a>
     </div>
 
     <div>
@@ -1199,13 +1235,13 @@
               <svg class="octicon octicon-device-desktop" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.75 2.5h12.5a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5a.25.25 0 01.25-.25zM14.25 1H1.75A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
           </a>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/K-G-PRAJWAL/Python-Projects/edit/master/Coronavirus%20Voice%20Assistant/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pmL8EMUEA4aSbWyDhCF99UKTnPKLQW3rPEn7vLUUuy/rlEx9ZS1WEMNZ74nFb8TNN4JQAvmx5pPwn+eG3Gra+g==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/K-G-PRAJWAL/Python-Projects/edit/master/Coronavirus%20Voice%20Assistant/main.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="mrG4AKI5XRAitJZ534o6epLis7TwVxDXPF9if1Aqlnt/8DF4E4nX7tFTzNvQcn6d07ppN/0nQXsFKYyM98XmMQ==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
               aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" height="16" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.013 1.427a1.75 1.75 0 012.474 0l1.086 1.086a1.75 1.75 0 010 2.474l-8.61 8.61c-.21.21-.47.364-.756.445l-3.251.93a.75.75 0 01-.927-.928l.929-3.25a1.75 1.75 0 01.445-.758l8.61-8.61zm1.414 1.06a.25.25 0 00-.354 0L10.811 3.75l1.439 1.44 1.263-1.263a.25.25 0 000-.354l-1.086-1.086zM11.189 6.25L9.75 4.81l-6.286 6.287a.25.25 0 00-.064.108l-.558 1.953 1.953-.558a.249.249 0 00.108-.064l6.286-6.286z"></path></svg>
             </button>
 </form>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/K-G-PRAJWAL/Python-Projects/delete/master/Coronavirus%20Voice%20Assistant/README.md" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="mTQ6BnkyCHKAAcBn1mgWOQUPTZ0MVUhK50BIa75K66SPb3POoi2Wo5C451ChZ59EinXZIV9qcOGIVsMS2GPJiA==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/K-G-PRAJWAL/Python-Projects/delete/master/Coronavirus%20Voice%20Assistant/main.py" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="GtrDDog7x9hBOZLl3Q5fxRcmM6h8j65QE5dbwEE/YXKb9jtV/V7Rltm/h6p/bmjn6vTNrACKGWljLaUQ52wP7Q==" />
             <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
               aria-label="Delete the file in your fork of this project" data-disable-with>
               <svg class="octicon octicon-trashcan" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6.5 1.75a.25.25 0 01.25-.25h2.5a.25.25 0 01.25.25V3h-3V1.75zm4.5 0V3h2.25a.75.75 0 010 1.5H2.75a.75.75 0 010-1.5H5V1.75C5 .784 5.784 0 6.75 0h2.5C10.216 0 11 .784 11 1.75zM4.496 6.675a.75.75 0 10-1.492.15l.66 6.6A1.75 1.75 0 005.405 15h5.19c.9 0 1.652-.681 1.741-1.576l.66-6.6a.75.75 0 00-1.492-.149l-.66 6.6a.25.25 0 01-.249.225h-5.19a.25.25 0 01-.249-.225l-.66-6.6z"></path></svg>
@@ -1215,33 +1251,677 @@
 </div>
 
       
-  <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6 gist-border-0">
-    <article class="markdown-body entry-content container-lg" itemprop="text"><h1><a id="user-content-coronavirus-voice-assistant" class="anchor" aria-hidden="true" href="#coronavirus-voice-assistant"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Coronavirus Voice Assistant</h1>
-<p>This app makes use of <a href="https://www.parsehub.com/" rel="nofollow">ParseHub</a> which is a powerful web-scraping tool.</p>
-<p>The data is extracted from the very popular website <a href="https://www.worldometers.info/coronavirus/" rel="nofollow">Worldometers</a> that provides the accurate information about the COVID19 disease worldwide.</p>
-<hr>
-<p>Steps to be followed:</p>
-<ol>
-<li>Download <a href="https://www.parsehub.com/quickstart" rel="nofollow">ParseHub</a>.</li>
-<li>Start a New Project and paste the link '<a href="https://www.worldometers.info/coronavirus/" rel="nofollow">https://www.worldometers.info/coronavirus/</a>'.</li>
-<li>Select the items that you would like to scrape from the page and assign unique tags to each one of them. Get the data.</li>
-<li>Copy the api key, project token and run token to config file and import them to your main.py file.</li>
-<li>Install the requirements for this project: requests, certifi, chardet, comtypes, idna, pyttsx3, pywin32, SpeechRecognition, urllib3.</li>
-<li>Run the main.py file.</li>
-</ol>
-<hr>
-<p>Steps to run the application:</p>
-<ol>
-<li>Execute the command "python main.py".</li>
-<li>Ask the assistant for "number of total cases", "total cases in India", etc.</li>
-<li>For updating the information, say "update" and wait for a while.</li>
-<li>Say "stop" to exit the application.</li>
-</ol>
-<hr>
-<p>Get more information about this project on <a href="https://medium.com/@KGPrajwal/covid19-voice-assistant-63c37b1f02f9" rel="nofollow">Medium</a>.</p>
-<hr>
-<h3><a id="user-content-thank-you" class="anchor" aria-hidden="true" href="#thank-you"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Thank You!</h3>
-</article>
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-python  gist-border-0">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
+      <tr>
+        <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>config</span></td>
+      </tr>
+      <tr>
+        <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>requests</span></td>
+      </tr>
+      <tr>
+        <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>json</span></td>
+      </tr>
+      <tr>
+        <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>pyttsx3</span></td>
+      </tr>
+      <tr>
+        <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>speech_recognition</span> <span class=pl-k>as</span> <span class=pl-s1>sr</span></td>
+      </tr>
+      <tr>
+        <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>re</span></td>
+      </tr>
+      <tr>
+        <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>threading</span></td>
+      </tr>
+      <tr>
+        <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class=pl-k>import</span> <span class=pl-s1>time</span></td>
+      </tr>
+      <tr>
+        <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class=pl-v>API_KEY</span> <span class=pl-c1>=</span> <span class=pl-s1>config</span>.<span class=pl-v>MY_API_KEY</span></td>
+      </tr>
+      <tr>
+        <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class=pl-v>PROJECT_TOKEN</span> <span class=pl-c1>=</span> <span class=pl-s1>config</span>.<span class=pl-v>MY_PROJECT_TOKEN</span></td>
+      </tr>
+      <tr>
+        <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line"><span class=pl-v>RUN_TOKEN</span> <span class=pl-c1>=</span> <span class=pl-s1>config</span>.<span class=pl-v>MY_RUN_TOKEN</span></td>
+      </tr>
+      <tr>
+        <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class=pl-k>class</span> <span class=pl-v>Data</span>:</td>
+      </tr>
+      <tr>
+        <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>__init__</span>(<span class=pl-s1>self</span>, <span class=pl-s1>api_key</span>, <span class=pl-s1>project_token</span>):</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>api_key</span> <span class=pl-c1>=</span> <span class=pl-s1>api_key</span></td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>project_token</span> <span class=pl-c1>=</span> <span class=pl-s1>project_token</span></td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>params</span> <span class=pl-c1>=</span> {</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>&quot;api_key&quot;</span>: <span class=pl-s1>self</span>.<span class=pl-s1>api_key</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line">        }  <span class=pl-c># Set up Authentication</span></td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>self</span>.<span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-en>get_data</span>()  <span class=pl-c># Most recent run</span></td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>get_data</span>(<span class=pl-s1>self</span>):</td>
+      </tr>
+      <tr>
+        <td id="L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="LC25" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>response</span> <span class=pl-c1>=</span> <span class=pl-s1>requests</span>.<span class=pl-en>get</span>(<span class=pl-s>f&#39;https://www.parsehub.com/api/v2/projects/<span class=pl-s1><span class=pl-kos>{</span><span class=pl-v>PROJECT_TOKEN</span><span class=pl-kos>}</span></span>/last_ready_run/data&#39;</span>, <span class=pl-s1>params</span><span class=pl-c1>=</span>{</td>
+      </tr>
+      <tr>
+        <td id="L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="LC26" class="blob-code blob-code-inner js-file-line">                                <span class=pl-s>&quot;api_key&quot;</span>: <span class=pl-v>API_KEY</span>})  <span class=pl-c># Authentication for the get request</span></td>
+      </tr>
+      <tr>
+        <td id="L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="LC27" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-s1>json</span>.<span class=pl-en>loads</span>(<span class=pl-s1>response</span>.<span class=pl-s1>text</span>)</td>
+      </tr>
+      <tr>
+        <td id="L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="LC28" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>data</span></td>
+      </tr>
+      <tr>
+        <td id="L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="LC29" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="LC30" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>get_total_cases</span>(<span class=pl-s1>self</span>):  <span class=pl-c># Get the total coronavirus cases</span></td>
+      </tr>
+      <tr>
+        <td id="L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="LC31" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>data</span>[<span class=pl-s>&#39;total&#39;</span>]</td>
+      </tr>
+      <tr>
+        <td id="L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="LC32" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>val</span> <span class=pl-c1>in</span> <span class=pl-s1>data</span>:</td>
+      </tr>
+      <tr>
+        <td id="L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="LC33" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>val</span>[<span class=pl-s>&#39;name&#39;</span>] <span class=pl-c1>==</span> <span class=pl-s>&quot;Coronavirus Cases:&quot;</span>:</td>
+      </tr>
+      <tr>
+        <td id="L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="LC34" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>return</span> <span class=pl-s1>val</span>[<span class=pl-s>&#39;value&#39;</span>]</td>
+      </tr>
+      <tr>
+        <td id="L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="LC35" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="LC36" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>get_total_deaths</span>(<span class=pl-s1>self</span>):  <span class=pl-c># Get the total coronavirus deaths</span></td>
+      </tr>
+      <tr>
+        <td id="L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="LC37" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>data</span>[<span class=pl-s>&#39;total&#39;</span>]</td>
+      </tr>
+      <tr>
+        <td id="L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="LC38" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>val</span> <span class=pl-c1>in</span> <span class=pl-s1>data</span>:</td>
+      </tr>
+      <tr>
+        <td id="L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="LC39" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>val</span>[<span class=pl-s>&#39;name&#39;</span>] <span class=pl-c1>==</span> <span class=pl-s>&quot;Deaths:&quot;</span>:</td>
+      </tr>
+      <tr>
+        <td id="L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="LC40" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>return</span> <span class=pl-s1>val</span>[<span class=pl-s>&#39;value&#39;</span>]</td>
+      </tr>
+      <tr>
+        <td id="L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="LC41" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>&quot;0&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="LC42" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="LC43" class="blob-code blob-code-inner js-file-line">    <span class=pl-c># Get the details of cases and deaths in a country</span></td>
+      </tr>
+      <tr>
+        <td id="L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="LC44" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>get_country_data</span>(<span class=pl-s1>self</span>, <span class=pl-s1>country</span>):</td>
+      </tr>
+      <tr>
+        <td id="L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="LC45" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>data</span>[<span class=pl-s>&quot;country&quot;</span>]</td>
+      </tr>
+      <tr>
+        <td id="L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="LC46" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>val</span> <span class=pl-c1>in</span> <span class=pl-s1>data</span>:</td>
+      </tr>
+      <tr>
+        <td id="L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="LC47" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>val</span>[<span class=pl-s>&#39;name&#39;</span>].<span class=pl-en>lower</span>() <span class=pl-c1>==</span> <span class=pl-s1>country</span>.<span class=pl-en>lower</span>():</td>
+      </tr>
+      <tr>
+        <td id="L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="LC48" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>return</span> <span class=pl-s1>val</span></td>
+      </tr>
+      <tr>
+        <td id="L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="LC49" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s>&quot;0&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="LC50" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="LC51" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>get_list_of_countries</span>(<span class=pl-s1>self</span>):</td>
+      </tr>
+      <tr>
+        <td id="L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="LC52" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>countries</span> <span class=pl-c1>=</span> []</td>
+      </tr>
+      <tr>
+        <td id="L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="LC53" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>country</span> <span class=pl-c1>in</span> <span class=pl-s1>self</span>.<span class=pl-s1>data</span>[<span class=pl-s>&#39;country&#39;</span>]:</td>
+      </tr>
+      <tr>
+        <td id="L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="LC54" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>countries</span>.<span class=pl-en>append</span>(<span class=pl-s1>country</span>[<span class=pl-s>&#39;name&#39;</span>].<span class=pl-en>lower</span>())</td>
+      </tr>
+      <tr>
+        <td id="L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="LC55" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>return</span> <span class=pl-s1>countries</span></td>
+      </tr>
+      <tr>
+        <td id="L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="LC56" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="LC57" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>def</span> <span class=pl-en>update</span>(<span class=pl-s1>self</span>):  <span class=pl-c># Update the information</span></td>
+      </tr>
+      <tr>
+        <td id="L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="LC58" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>response</span> <span class=pl-c1>=</span> <span class=pl-s1>requests</span>.<span class=pl-en>post</span>(</td>
+      </tr>
+      <tr>
+        <td id="L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="LC59" class="blob-code blob-code-inner js-file-line">            <span class=pl-s>f&#39;https://www.parsehub.com/api/v2/projects/<span class=pl-s1><span class=pl-kos>{</span><span class=pl-v>PROJECT_TOKEN</span><span class=pl-kos>}</span></span>/run&#39;</span>, <span class=pl-s1>params</span><span class=pl-c1>=</span>{<span class=pl-s>&quot;api_key&quot;</span>: <span class=pl-v>API_KEY</span>})</td>
+      </tr>
+      <tr>
+        <td id="L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="LC60" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="LC61" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>def</span> <span class=pl-en>poll</span>():</td>
+      </tr>
+      <tr>
+        <td id="L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="LC62" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>time</span>.<span class=pl-en>sleep</span>(<span class=pl-c1>0.1</span>)</td>
+      </tr>
+      <tr>
+        <td id="L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="LC63" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>old_data</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-s1>data</span></td>
+      </tr>
+      <tr>
+        <td id="L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="LC64" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>while</span> <span class=pl-c1>True</span>:</td>
+      </tr>
+      <tr>
+        <td id="L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="LC65" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>new_data</span> <span class=pl-c1>=</span> <span class=pl-s1>self</span>.<span class=pl-en>get_data</span>()</td>
+      </tr>
+      <tr>
+        <td id="L66" class="blob-num js-line-number" data-line-number="66"></td>
+        <td id="LC66" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>if</span> <span class=pl-s1>new_data</span> <span class=pl-c1>!=</span> <span class=pl-s1>old_data</span>:  <span class=pl-c># Check if old data equals new data every 5 seconds</span></td>
+      </tr>
+      <tr>
+        <td id="L67" class="blob-num js-line-number" data-line-number="67"></td>
+        <td id="LC67" class="blob-code blob-code-inner js-file-line">                    <span class=pl-s1>self</span>.<span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-s1>new_data</span>  <span class=pl-c># Update</span></td>
+      </tr>
+      <tr>
+        <td id="L68" class="blob-num js-line-number" data-line-number="68"></td>
+        <td id="LC68" class="blob-code blob-code-inner js-file-line">                    <span class=pl-en>print</span>(<span class=pl-s>&quot;Data Updated!&quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L69" class="blob-num js-line-number" data-line-number="69"></td>
+        <td id="LC69" class="blob-code blob-code-inner js-file-line">                    <span class=pl-k>break</span></td>
+      </tr>
+      <tr>
+        <td id="L70" class="blob-num js-line-number" data-line-number="70"></td>
+        <td id="LC70" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>time</span>.<span class=pl-en>sleep</span>(<span class=pl-c1>5</span>)</td>
+      </tr>
+      <tr>
+        <td id="L71" class="blob-num js-line-number" data-line-number="71"></td>
+        <td id="LC71" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L72" class="blob-num js-line-number" data-line-number="72"></td>
+        <td id="LC72" class="blob-code blob-code-inner js-file-line">        <span class=pl-c># Run the voice assistant on one thread and update the information on another</span></td>
+      </tr>
+      <tr>
+        <td id="L73" class="blob-num js-line-number" data-line-number="73"></td>
+        <td id="LC73" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>t</span> <span class=pl-c1>=</span> <span class=pl-s1>threading</span>.<span class=pl-v>Thread</span>(<span class=pl-s1>target</span><span class=pl-c1>=</span><span class=pl-s1>poll</span>)</td>
+      </tr>
+      <tr>
+        <td id="L74" class="blob-num js-line-number" data-line-number="74"></td>
+        <td id="LC74" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>t</span>.<span class=pl-en>start</span>()</td>
+      </tr>
+      <tr>
+        <td id="L75" class="blob-num js-line-number" data-line-number="75"></td>
+        <td id="LC75" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L76" class="blob-num js-line-number" data-line-number="76"></td>
+        <td id="LC76" class="blob-code blob-code-inner js-file-line"><span class=pl-c># Voice Recognition</span></td>
+      </tr>
+      <tr>
+        <td id="L77" class="blob-num js-line-number" data-line-number="77"></td>
+        <td id="LC77" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L78" class="blob-num js-line-number" data-line-number="78"></td>
+        <td id="LC78" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L79" class="blob-num js-line-number" data-line-number="79"></td>
+        <td id="LC79" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>speak</span>(<span class=pl-s1>text</span>):  <span class=pl-c># Speak</span></td>
+      </tr>
+      <tr>
+        <td id="L80" class="blob-num js-line-number" data-line-number="80"></td>
+        <td id="LC80" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>engine</span> <span class=pl-c1>=</span> <span class=pl-s1>pyttsx3</span>.<span class=pl-en>init</span>()  <span class=pl-c># Initialise the python text to speech engine</span></td>
+      </tr>
+      <tr>
+        <td id="L81" class="blob-num js-line-number" data-line-number="81"></td>
+        <td id="LC81" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>engine</span>.<span class=pl-en>say</span>(<span class=pl-s1>text</span>)</td>
+      </tr>
+      <tr>
+        <td id="L82" class="blob-num js-line-number" data-line-number="82"></td>
+        <td id="LC82" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>engine</span>.<span class=pl-en>runAndWait</span>()</td>
+      </tr>
+      <tr>
+        <td id="L83" class="blob-num js-line-number" data-line-number="83"></td>
+        <td id="LC83" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L84" class="blob-num js-line-number" data-line-number="84"></td>
+        <td id="LC84" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L85" class="blob-num js-line-number" data-line-number="85"></td>
+        <td id="LC85" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>get_audio</span>():  <span class=pl-c># Listen</span></td>
+      </tr>
+      <tr>
+        <td id="L86" class="blob-num js-line-number" data-line-number="86"></td>
+        <td id="LC86" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>r</span> <span class=pl-c1>=</span> <span class=pl-s1>sr</span>.<span class=pl-v>Recognizer</span>()</td>
+      </tr>
+      <tr>
+        <td id="L87" class="blob-num js-line-number" data-line-number="87"></td>
+        <td id="LC87" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>with</span> <span class=pl-s1>sr</span>.<span class=pl-v>Microphone</span>() <span class=pl-k>as</span> <span class=pl-s1>source</span>:</td>
+      </tr>
+      <tr>
+        <td id="L88" class="blob-num js-line-number" data-line-number="88"></td>
+        <td id="LC88" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>audio</span> <span class=pl-c1>=</span> <span class=pl-s1>r</span>.<span class=pl-en>listen</span>(<span class=pl-s1>source</span>)</td>
+      </tr>
+      <tr>
+        <td id="L89" class="blob-num js-line-number" data-line-number="89"></td>
+        <td id="LC89" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>said</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L90" class="blob-num js-line-number" data-line-number="90"></td>
+        <td id="LC90" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L91" class="blob-num js-line-number" data-line-number="91"></td>
+        <td id="LC91" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>try</span>:</td>
+      </tr>
+      <tr>
+        <td id="L92" class="blob-num js-line-number" data-line-number="92"></td>
+        <td id="LC92" class="blob-code blob-code-inner js-file-line">            <span class=pl-c># Google to recognize the speech input</span></td>
+      </tr>
+      <tr>
+        <td id="L93" class="blob-num js-line-number" data-line-number="93"></td>
+        <td id="LC93" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>said</span> <span class=pl-c1>=</span> <span class=pl-s1>r</span>.<span class=pl-en>recognize_google</span>(<span class=pl-s1>audio</span>)</td>
+      </tr>
+      <tr>
+        <td id="L94" class="blob-num js-line-number" data-line-number="94"></td>
+        <td id="LC94" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>except</span> <span class=pl-v>Exception</span> <span class=pl-k>as</span> <span class=pl-s1>e</span>:</td>
+      </tr>
+      <tr>
+        <td id="L95" class="blob-num js-line-number" data-line-number="95"></td>
+        <td id="LC95" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>print</span>(<span class=pl-s>&quot;Exception: &quot;</span>, <span class=pl-en>str</span>(<span class=pl-s1>e</span>))</td>
+      </tr>
+      <tr>
+        <td id="L96" class="blob-num js-line-number" data-line-number="96"></td>
+        <td id="LC96" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>return</span> <span class=pl-s1>said</span>.<span class=pl-en>lower</span>()</td>
+      </tr>
+      <tr>
+        <td id="L97" class="blob-num js-line-number" data-line-number="97"></td>
+        <td id="LC97" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L98" class="blob-num js-line-number" data-line-number="98"></td>
+        <td id="LC98" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L99" class="blob-num js-line-number" data-line-number="99"></td>
+        <td id="LC99" class="blob-code blob-code-inner js-file-line"><span class=pl-k>def</span> <span class=pl-en>main</span>():</td>
+      </tr>
+      <tr>
+        <td id="L100" class="blob-num js-line-number" data-line-number="100"></td>
+        <td id="LC100" class="blob-code blob-code-inner js-file-line">    <span class=pl-en>print</span>(<span class=pl-s>&quot;Started Program!&quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L101" class="blob-num js-line-number" data-line-number="101"></td>
+        <td id="LC101" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>data</span> <span class=pl-c1>=</span> <span class=pl-v>Data</span>(<span class=pl-v>API_KEY</span>, <span class=pl-v>PROJECT_TOKEN</span>)</td>
+      </tr>
+      <tr>
+        <td id="L102" class="blob-num js-line-number" data-line-number="102"></td>
+        <td id="LC102" class="blob-code blob-code-inner js-file-line">    <span class=pl-s1>country_list</span> <span class=pl-c1>=</span> <span class=pl-en>list</span>(<span class=pl-s1>data</span>.<span class=pl-en>get_list_of_countries</span>())</td>
+      </tr>
+      <tr>
+        <td id="L103" class="blob-num js-line-number" data-line-number="103"></td>
+        <td id="LC103" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L104" class="blob-num js-line-number" data-line-number="104"></td>
+        <td id="LC104" class="blob-code blob-code-inner js-file-line">    <span class=pl-c># Look for REGEX patterns in the voice</span></td>
+      </tr>
+      <tr>
+        <td id="L105" class="blob-num js-line-number" data-line-number="105"></td>
+        <td id="LC105" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>TOTAL_PATTERNS</span> <span class=pl-c1>=</span> {</td>
+      </tr>
+      <tr>
+        <td id="L106" class="blob-num js-line-number" data-line-number="106"></td>
+        <td id="LC106" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>re</span>.<span class=pl-en>compile</span>(<span class=pl-s>&quot;[\w\s]+ total [\w\s]+ cases&quot;</span>): <span class=pl-s1>data</span>.<span class=pl-s1>get_total_cases</span>,</td>
+      </tr>
+      <tr>
+        <td id="L107" class="blob-num js-line-number" data-line-number="107"></td>
+        <td id="LC107" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>re</span>.<span class=pl-en>compile</span>(<span class=pl-s>&quot;[\w\s]+ total cases&quot;</span>): <span class=pl-s1>data</span>.<span class=pl-s1>get_total_cases</span>,</td>
+      </tr>
+      <tr>
+        <td id="L108" class="blob-num js-line-number" data-line-number="108"></td>
+        <td id="LC108" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>re</span>.<span class=pl-en>compile</span>(<span class=pl-s>&quot;[\w\s]+ total [\w\s]+ deaths&quot;</span>): <span class=pl-s1>data</span>.<span class=pl-s1>get_total_deaths</span>,</td>
+      </tr>
+      <tr>
+        <td id="L109" class="blob-num js-line-number" data-line-number="109"></td>
+        <td id="LC109" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>re</span>.<span class=pl-en>compile</span>(<span class=pl-s>&quot;[\w\s]+ total deaths&quot;</span>): <span class=pl-s1>data</span>.<span class=pl-s1>get_total_deaths</span></td>
+      </tr>
+      <tr>
+        <td id="L110" class="blob-num js-line-number" data-line-number="110"></td>
+        <td id="LC110" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L111" class="blob-num js-line-number" data-line-number="111"></td>
+        <td id="LC111" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L112" class="blob-num js-line-number" data-line-number="112"></td>
+        <td id="LC112" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>COUNTRY_PATTERNS</span> <span class=pl-c1>=</span> {</td>
+      </tr>
+      <tr>
+        <td id="L113" class="blob-num js-line-number" data-line-number="113"></td>
+        <td id="LC113" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>re</span>.<span class=pl-en>compile</span>(<span class=pl-s>&quot;[\w\s]+ cases [\w\s]+&quot;</span>): <span class=pl-k>lambda</span> <span class=pl-s1>country</span>: <span class=pl-s1>data</span>.<span class=pl-en>get_country_data</span>(<span class=pl-s1>country</span>)[<span class=pl-s>&#39;total_cases&#39;</span>],</td>
+      </tr>
+      <tr>
+        <td id="L114" class="blob-num js-line-number" data-line-number="114"></td>
+        <td id="LC114" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>re</span>.<span class=pl-en>compile</span>(<span class=pl-s>&quot;[\w\s]+ deaths [\w\s]+&quot;</span>): <span class=pl-k>lambda</span> <span class=pl-s1>country</span>: <span class=pl-s1>data</span>.<span class=pl-en>get_country_data</span>(<span class=pl-s1>country</span>)[<span class=pl-s>&#39;total_deaths&#39;</span>],</td>
+      </tr>
+      <tr>
+        <td id="L115" class="blob-num js-line-number" data-line-number="115"></td>
+        <td id="LC115" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>re</span>.<span class=pl-en>compile</span>(<span class=pl-s>&quot;[\w\s]+ deaths [\w\s]+&quot;</span>): <span class=pl-k>lambda</span> <span class=pl-s1>country</span>: <span class=pl-s1>data</span>.<span class=pl-en>get_country_data</span>(<span class=pl-s1>country</span>)[<span class=pl-s>&#39;total_deaths&#39;</span>]</td>
+      </tr>
+      <tr>
+        <td id="L116" class="blob-num js-line-number" data-line-number="116"></td>
+        <td id="LC116" class="blob-code blob-code-inner js-file-line">    }</td>
+      </tr>
+      <tr>
+        <td id="L117" class="blob-num js-line-number" data-line-number="117"></td>
+        <td id="LC117" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L118" class="blob-num js-line-number" data-line-number="118"></td>
+        <td id="LC118" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>UPDATE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;update&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L119" class="blob-num js-line-number" data-line-number="119"></td>
+        <td id="LC119" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L120" class="blob-num js-line-number" data-line-number="120"></td>
+        <td id="LC120" class="blob-code blob-code-inner js-file-line">    <span class=pl-v>END_PHRASE</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;stop&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L121" class="blob-num js-line-number" data-line-number="121"></td>
+        <td id="LC121" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L122" class="blob-num js-line-number" data-line-number="122"></td>
+        <td id="LC122" class="blob-code blob-code-inner js-file-line">    <span class=pl-k>while</span> <span class=pl-c1>True</span>:</td>
+      </tr>
+      <tr>
+        <td id="L123" class="blob-num js-line-number" data-line-number="123"></td>
+        <td id="LC123" class="blob-code blob-code-inner js-file-line">        <span class=pl-en>print</span>(<span class=pl-s>&quot;Listening...&quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L124" class="blob-num js-line-number" data-line-number="124"></td>
+        <td id="LC124" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>text</span> <span class=pl-c1>=</span> <span class=pl-en>get_audio</span>()</td>
+      </tr>
+      <tr>
+        <td id="L125" class="blob-num js-line-number" data-line-number="125"></td>
+        <td id="LC125" class="blob-code blob-code-inner js-file-line">        <span class=pl-en>print</span>(<span class=pl-s1>text</span>)</td>
+      </tr>
+      <tr>
+        <td id="L126" class="blob-num js-line-number" data-line-number="126"></td>
+        <td id="LC126" class="blob-code blob-code-inner js-file-line">        <span class=pl-s1>result</span> <span class=pl-c1>=</span> <span class=pl-c1>None</span></td>
+      </tr>
+      <tr>
+        <td id="L127" class="blob-num js-line-number" data-line-number="127"></td>
+        <td id="LC127" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L128" class="blob-num js-line-number" data-line-number="128"></td>
+        <td id="LC128" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>pattern</span>, <span class=pl-s1>func</span> <span class=pl-c1>in</span> <span class=pl-v>COUNTRY_PATTERNS</span>.<span class=pl-en>items</span>():</td>
+      </tr>
+      <tr>
+        <td id="L129" class="blob-num js-line-number" data-line-number="129"></td>
+        <td id="LC129" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>pattern</span>.<span class=pl-en>match</span>(<span class=pl-s1>text</span>):</td>
+      </tr>
+      <tr>
+        <td id="L130" class="blob-num js-line-number" data-line-number="130"></td>
+        <td id="LC130" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>words</span> <span class=pl-c1>=</span> <span class=pl-en>set</span>(<span class=pl-s1>text</span>.<span class=pl-en>split</span>(<span class=pl-s>&quot; &quot;</span>))</td>
+      </tr>
+      <tr>
+        <td id="L131" class="blob-num js-line-number" data-line-number="131"></td>
+        <td id="LC131" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>for</span> <span class=pl-s1>country</span> <span class=pl-c1>in</span> <span class=pl-s1>country_list</span>:</td>
+      </tr>
+      <tr>
+        <td id="L132" class="blob-num js-line-number" data-line-number="132"></td>
+        <td id="LC132" class="blob-code blob-code-inner js-file-line">                    <span class=pl-k>if</span> <span class=pl-s1>country</span> <span class=pl-c1>in</span> <span class=pl-s1>words</span>:</td>
+      </tr>
+      <tr>
+        <td id="L133" class="blob-num js-line-number" data-line-number="133"></td>
+        <td id="LC133" class="blob-code blob-code-inner js-file-line">                        <span class=pl-s1>result</span> <span class=pl-c1>=</span> <span class=pl-en>func</span>(<span class=pl-s1>country</span>)</td>
+      </tr>
+      <tr>
+        <td id="L134" class="blob-num js-line-number" data-line-number="134"></td>
+        <td id="LC134" class="blob-code blob-code-inner js-file-line">                        <span class=pl-k>break</span></td>
+      </tr>
+      <tr>
+        <td id="L135" class="blob-num js-line-number" data-line-number="135"></td>
+        <td id="LC135" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L136" class="blob-num js-line-number" data-line-number="136"></td>
+        <td id="LC136" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>for</span> <span class=pl-s1>pattern</span>, <span class=pl-s1>func</span> <span class=pl-c1>in</span> <span class=pl-v>TOTAL_PATTERNS</span>.<span class=pl-en>items</span>():</td>
+      </tr>
+      <tr>
+        <td id="L137" class="blob-num js-line-number" data-line-number="137"></td>
+        <td id="LC137" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>if</span> <span class=pl-s1>pattern</span>.<span class=pl-en>match</span>(<span class=pl-s1>text</span>):</td>
+      </tr>
+      <tr>
+        <td id="L138" class="blob-num js-line-number" data-line-number="138"></td>
+        <td id="LC138" class="blob-code blob-code-inner js-file-line">                <span class=pl-s1>result</span> <span class=pl-c1>=</span> <span class=pl-en>func</span>()</td>
+      </tr>
+      <tr>
+        <td id="L139" class="blob-num js-line-number" data-line-number="139"></td>
+        <td id="LC139" class="blob-code blob-code-inner js-file-line">                <span class=pl-k>break</span></td>
+      </tr>
+      <tr>
+        <td id="L140" class="blob-num js-line-number" data-line-number="140"></td>
+        <td id="LC140" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L141" class="blob-num js-line-number" data-line-number="141"></td>
+        <td id="LC141" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>text</span> <span class=pl-c1>==</span> <span class=pl-v>UPDATE</span>:</td>
+      </tr>
+      <tr>
+        <td id="L142" class="blob-num js-line-number" data-line-number="142"></td>
+        <td id="LC142" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>result</span> <span class=pl-c1>=</span> <span class=pl-s>&quot;Data is being updated. This may take a while.&quot;</span></td>
+      </tr>
+      <tr>
+        <td id="L143" class="blob-num js-line-number" data-line-number="143"></td>
+        <td id="LC143" class="blob-code blob-code-inner js-file-line">            <span class=pl-s1>data</span>.<span class=pl-en>update</span>()</td>
+      </tr>
+      <tr>
+        <td id="L144" class="blob-num js-line-number" data-line-number="144"></td>
+        <td id="LC144" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L145" class="blob-num js-line-number" data-line-number="145"></td>
+        <td id="LC145" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>result</span>:</td>
+      </tr>
+      <tr>
+        <td id="L146" class="blob-num js-line-number" data-line-number="146"></td>
+        <td id="LC146" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>speak</span>(<span class=pl-s1>result</span>)</td>
+      </tr>
+      <tr>
+        <td id="L147" class="blob-num js-line-number" data-line-number="147"></td>
+        <td id="LC147" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L148" class="blob-num js-line-number" data-line-number="148"></td>
+        <td id="LC148" class="blob-code blob-code-inner js-file-line">        <span class=pl-k>if</span> <span class=pl-s1>text</span>.<span class=pl-en>find</span>(<span class=pl-v>END_PHRASE</span>) <span class=pl-c1>!=</span> <span class=pl-c1>-</span><span class=pl-c1>1</span>:  <span class=pl-c># Stop</span></td>
+      </tr>
+      <tr>
+        <td id="L149" class="blob-num js-line-number" data-line-number="149"></td>
+        <td id="LC149" class="blob-code blob-code-inner js-file-line">            <span class=pl-en>print</span>(<span class=pl-s>&quot;Exit&quot;</span>)</td>
+      </tr>
+      <tr>
+        <td id="L150" class="blob-num js-line-number" data-line-number="150"></td>
+        <td id="LC150" class="blob-code blob-code-inner js-file-line">            <span class=pl-k>break</span></td>
+      </tr>
+      <tr>
+        <td id="L151" class="blob-num js-line-number" data-line-number="151"></td>
+        <td id="LC151" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L152" class="blob-num js-line-number" data-line-number="152"></td>
+        <td id="LC152" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L153" class="blob-num js-line-number" data-line-number="153"></td>
+        <td id="LC153" class="blob-code blob-code-inner js-file-line"><span class=pl-en>main</span>()</td>
+      </tr>
+</table>
+
+  <details class="details-reset details-overlay BlobToolbar position-absolute js-file-line-actions dropdown d-none" aria-hidden="true">
+    <summary class="btn-octicon ml-0 px-2 p-0 bg-white border border-gray-dark rounded-1" aria-label="Inline file action toolbar">
+      <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+    </summary>
+    <details-menu>
+      <ul class="BlobToolbar-dropdown dropdown-menu dropdown-menu-se mt-2" style="width:185px">
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-lines" style="cursor:pointer;">
+            Copy lines
+          </clipboard-copy>
+        </li>
+        <li>
+          <clipboard-copy role="menuitem" class="dropdown-item" id="js-copy-permalink" style="cursor:pointer;">
+            Copy permalink
+          </clipboard-copy>
+        </li>
+        <li><a class="dropdown-item js-update-url-with-hash" id="js-view-git-blame" role="menuitem" href="/K-G-PRAJWAL/Python-Projects/blame/407e112488ec7b9d121fae52d1828d29b0c6b94a/Coronavirus%20Voice%20Assistant/main.py">View git blame</a></li>
+          <li><a class="dropdown-item" id="js-new-issue" role="menuitem" href="/K-G-PRAJWAL/Python-Projects/issues/new">Reference in new issue</a></li>
+      </ul>
+    </details-menu>
+  </details>
+
   </div>
 
     </div>
@@ -1262,10 +1942,10 @@
      hidden
      data-tagsearch-url="/K-G-PRAJWAL/Python-Projects/find-definition"
      data-tagsearch-ref="master"
-     data-tagsearch-path="Coronavirus Voice Assistant/README.md"
-     data-tagsearch-lang="Markdown"
-     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/README.md&quot;,&quot;user_id&quot;:77053943}}"
-     data-hydro-click-hmac="e4b635e3625aed6f13171fd6c931a65de68c0d0f5b942a64433ff2571333e1cc">
+     data-tagsearch-path="Coronavirus Voice Assistant/main.py"
+     data-tagsearch-lang="Python"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:256949721,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Python&quot;,&quot;originating_url&quot;:&quot;https://github.com/K-G-PRAJWAL/Python-Projects/blob/master/Coronavirus%20Voice%20Assistant/main.py&quot;,&quot;user_id&quot;:77053943}}"
+     data-hydro-click-hmac="6306dc07a78167a5441edea88c95797371438f1d365cff58a7609367e61f956d">
   <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
     <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
     </div>
